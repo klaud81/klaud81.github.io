@@ -1,0 +1,22 @@
+title: klaud81 blog
+description: 유튜브 영상 요약과 학습 기록
+url: https://klaud81.github.io
+baseurl: ""
+lang: ko
+timezone: Asia/Seoul
+author: klaud81
+github_username: klaud81
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:day/:title/
+show_excerpts: true
+
+header_pages:
+  - about.md
+
+exclude:
+  - README.md
